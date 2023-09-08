@@ -42,7 +42,7 @@ header .boton {
   margin: 0;
   display: flex;
   gap: 28px;
-  color: #242E52;
+  color: #242e52;
   font-size: 13px;
   font-weight: 500;
 }
@@ -57,7 +57,7 @@ header .boton {
   align-items: center;
   border-radius: 50px;
 }
-.boton:hover{
+.boton:hover {
   background-color: #6e2e9e;
 }
 
@@ -93,14 +93,14 @@ header .boton {
   gap: 28px;
   width: 450px;
 }
-.container #rightBanner h2{
-  color: #232C50;
+.container #rightBanner h2 {
+  color: #232c50;
   font-size: 50px;
   font-weight: 700;
   line-height: 114.6%; /* 57.3px */
   letter-spacing: -1.75px;
 }
-.container #rightBanner p{
+.container #rightBanner p {
   color: #000;
   font-size: 16.558px;
   font-weight: 500;
@@ -159,8 +159,8 @@ header .boton {
 .contentCard span {
   font-weight: bold;
 }
-.contentCard p{
-  color: #B3B2B7;
+.contentCard p {
+  color: #b3b2b7;
   font-size: 16.298px;
   font-weight: 300;
   line-height: 156.6%; /* 25.523px */
@@ -197,7 +197,7 @@ header .boton {
 .best span {
   font-weight: bold;
   margin: 21px 0px;
-  color: #3F4868;
+  color: #3f4868;
   font-size: 16.071px;
   font-style: normal;
   font-weight: 700;
@@ -206,13 +206,13 @@ header .boton {
 }
 .best p {
   font-weight: 300;
-  color: #B9B9C1;
-  line-height: 156.6%; /* 25.056px */ 
+  color: #b9b9c1;
+  line-height: 156.6%; /* 25.056px */
 }
-.bestContainer .boton{
-  background: rgba(139, 72, 191, 0.70);
+.bestContainer .boton {
+  background: rgba(139, 72, 191, 0.7);
 }
-.bestContainer .boton:hover{
+.bestContainer .boton:hover {
   background: #6e2e9e;
 }
 
@@ -229,7 +229,7 @@ header .boton {
 .franja2 h2 {
   color: white;
   width: fit-content;
-  color: #FFF;
+  color: #fff;
   font-size: 35px;
   font-weight: 500;
 }
@@ -271,6 +271,12 @@ footer {
   width: fit-content;
   gap: 8px;
 }
+.socialIcons li:hover {
+  -webkit-animation: scale-down-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: scale-down-center 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  cursor: pointer;
+}
+
 .menuFooter {
   display: flex;
   flex-wrap: wrap;
@@ -285,14 +291,14 @@ footer {
   list-style: none;
   width: fit-content;
 }
-form{
+form {
   width: auto;
 }
 .suscribeBoton {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 270px
+  width: 270px;
 }
 .inputandboton {
   display: flex;
@@ -319,4 +325,26 @@ form{
 }
 .copyMobile {
   display: none;
+}
+
+/* KeyFrames */
+@-webkit-keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+}
+@keyframes scale-down-center {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  100% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
 }
