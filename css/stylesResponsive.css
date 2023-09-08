@@ -43,8 +43,8 @@
     gap: 50px;
     align-items: flex-start;
   }
-  .franja h2{
-    width: 305px;
+  .franja h2, .franja p {
+    width: auto;
   }
 
   /* Estilos del los literales */
