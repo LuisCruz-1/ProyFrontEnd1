@@ -39,6 +39,12 @@
   .franja {
     padding: 40px 20px;
     background: #3CDDF3;
+    flex-direction: column;
+    gap: 50px;
+    align-items: flex-start;
+  }
+  .franja h2{
+    width: 305px;
   }
 
   /* Estilos del los literales */
