@@ -1,0 +1,169 @@
+@media (max-width: 1024px) {
+
+  /* Estilos del header */
+  header {
+    padding: 40px 56px;
+    justify-content: space-between;
+    display: inline-flex;
+    align-items: center;
+    gap: 200px;
+  }
+
+  .menuHeader {
+    display: none;
+  }
+
+  header .boton {
+    display: none;
+  }
+
+  .menuMobile {
+    display: inline-flex;
+    width: 100%;
+    justify-content: end;
+    width: 35px;
+    cursor: pointer;
+  }
+
+  /* Estilos del banner */
+  .container {
+    padding: 64px 40px;
+    flex-direction: column;
+    gap: 100px;
+  }
+
+  .container #leftBanner {
+    width: 100%;
+  }
+
+  .container #rightBanner {
+    width: 100%;
+  }
+
+  /* Estilos del la franja morada */
+  .franja {
+    padding: 40px 20px;
+    background: #3CDDF3;
+  }
+
+  /* Estilos del los literales */
+  .cardContainer {
+    flex-direction: column;
+    align-content: end;
+    width: 100%;
+  }
+
+  .numCard {
+    width: 100%;
+    display: flex;
+    height: 43px;
+    border-radius: 50px 0px 0px 50px;
+    background: rgba(139, 72, 191, 0.30);
+    align-items: center;
+
+  }
+
+  .numCard .title {
+    display: block;
+    width: 80%;
+    padding-left: 10px;
+  }
+
+  .numCard .num {
+    width: 20%;
+    background: #8B48BF;
+    padding: 10px 25px;
+    height: 43px;
+  }
+
+  .cardContainer .card {
+    width: 90%;
+    flex-direction: column;
+
+  }
+
+  .contentCard span {
+    display: none;
+  }
+
+  /* Estilos del los mejores jugadores */
+  .bestContainer {
+    padding: 72px 18px;
+  }
+
+  .bestGallery {
+    flex-direction: column;
+  }
+
+  /* Estilos de la segunda franja */
+  .franja2 {
+    padding: 40px 50px;
+    flex-direction: column;
+    background: #3CDDF3;
+    align-items: center;
+    text-align: center;
+  }
+
+  .franja2 .boton {
+    margin-top: 50px;
+    background: #232C50;
+  }
+
+  .franja2 .boton a {
+    color: #FFF;
+  }
+  .franja2 .boton:hover {
+    background-color: #8b48bf;
+  }
+  .franja2 .boton:hover a {
+    color: white;
+  }
+  /* Estilos del footer */
+  footer {
+    padding: 40px 50px;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 25px;
+  }
+
+  .menuFooter {
+    width: 100%;
+    gap: 0px;
+    justify-content: space-between;
+  }
+
+  .logoFooter {
+    width: 100%;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: fit-content;
+    gap: 25px;
+  }
+
+  .socialIcons ul {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .socialIcons ul li {
+    width: fit-content;
+  }
+
+  .suscribeBoton {
+    width: 100%;
+  }
+
+  .copyDesktop {
+    display: none;
+  }
+
+  .copyMobile {
+    display: block;
+    color: #8C8C94;
+    font-size: 12.5px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+  }
+}

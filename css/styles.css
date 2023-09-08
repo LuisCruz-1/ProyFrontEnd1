@@ -1,0 +1,322 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;500;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Be Vietnam Pro", sans-serif;
+  width: 100%;
+}
+
+/* Estilos del header */
+header {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width: 100%;
+  align-items: center;
+  padding: 65px 165px;
+  gap: 224px;
+  justify-content: space-evenly;
+}
+
+header .boton {
+  box-shadow: 0px 4px 7px 0px rgba(0, 0, 0, 0.25);
+}
+
+.logoHeader {
+  width: 10%;
+  display: flex;
+}
+.logoHeader img {
+  width: fit-content;
+}
+
+.menuHeader {
+  width: 45%;
+}
+
+.menuHeader ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 28px;
+  color: #242E52;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.boton {
+  display: flex;
+  background-color: #8b48bf;
+  padding: 10px;
+  width: 134px;
+  height: 44px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.boton:hover{
+  background-color: #6e2e9e;
+}
+
+.boton a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  font-size: 13.181px;
+  font-weight: 500;
+}
+.menuMobile {
+  display: none;
+}
+
+/* Estilos del banner */
+.container {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 86px 180px;
+  gap: 100px;
+  justify-content: space-between;
+  width: 100%;
+}
+.container #leftBanner {
+  width: 540px;
+}
+.container #rightBanner {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  align-items: end;
+  text-align: right;
+  gap: 28px;
+  width: 450px;
+}
+.container #rightBanner h2{
+  color: #232C50;
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 114.6%; /* 57.3px */
+  letter-spacing: -1.75px;
+}
+.container #rightBanner p{
+  color: #000;
+  font-size: 16.558px;
+  font-weight: 500;
+  line-height: 157.1%; /* 26.013px */
+}
+/* Estilos del la franja morada */
+.franja {
+  display: flex;
+  background: #8b48bf;
+  padding: 40px 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+.franja h2,
+.franja p {
+  width: 450px;
+  color: #fff;
+}
+
+/* Estilos del contenejor de los literales */
+.cardContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 40px 0px;
+  width: 100%;
+  gap: 50px;
+  justify-content: center;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 40%;
+  gap: 23px;
+}
+.numCard .title {
+  display: none;
+}
+.numCard {
+  width: 10%;
+}
+
+.numCard .num {
+  background-color: #8b48bf;
+  color: white;
+  border-radius: 50px;
+  padding: 10px 20px;
+}
+
+.contentCard {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.contentCard span {
+  font-weight: bold;
+}
+.contentCard p{
+  color: #B3B2B7;
+  font-size: 16.298px;
+  font-weight: 300;
+  line-height: 156.6%; /* 25.523px */
+  letter-spacing: -0.163px;
+}
+
+/* Estilos del contenedor de los mejores jugadores */
+.bestContainer {
+  padding: 100px;
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bestContainer h2 {
+  margin-bottom: 50px;
+}
+.bestGallery {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  gap: 25px;
+}
+.best {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+}
+.best img {
+  width: 15%;
+}
+.best span {
+  font-weight: bold;
+  margin: 21px 0px;
+  color: #3F4868;
+  font-size: 16.071px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 156.6%; /* 25.168px */
+  letter-spacing: -0.161px;
+}
+.best p {
+  font-weight: 300;
+  color: #B9B9C1;
+  line-height: 156.6%; /* 25.056px */ 
+}
+.bestContainer .boton{
+  background: rgba(139, 72, 191, 0.70);
+}
+.bestContainer .boton:hover{
+  background: #6e2e9e;
+}
+
+/* Estilos de la segunda franja morada */
+.franja2 {
+  display: flex;
+  padding: 64px 165px;
+  background-color: #8b48bf;
+  justify-content: space-between;
+  height: 224px;
+  align-items: center;
+  height: fit-content;
+}
+.franja2 h2 {
+  color: white;
+  width: fit-content;
+  color: #FFF;
+  font-size: 35px;
+  font-weight: 500;
+}
+.franja2 .boton {
+  background-color: white;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+}
+
+.franja2 .boton a {
+  color: #8b48bf;
+}
+.franja2 .boton:hover {
+  background-color: #8b48bf;
+}
+.franja2 .boton:hover a {
+  color: white;
+}
+
+/* Estilos del Footer */
+footer {
+  display: flex;
+  background-color: #1e1e26;
+  padding: 50px 165px;
+  justify-content: space-between;
+}
+.logoFooter {
+  justify-content: space-between;
+  width: fit-content;
+  height: 141.143px;
+  display: flex;
+  flex-direction: column;
+}
+.logoFooter img {
+  width: 107.684px;
+}
+.socialIcons ul {
+  list-style: none;
+  display: flex;
+  width: fit-content;
+  gap: 8px;
+}
+.menuFooter {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  height: 141px;
+  gap: 219px;
+  width: auto;
+  color: #fff;
+  align-content: center;
+}
+.menuFooter ul {
+  list-style: none;
+  width: fit-content;
+}
+form{
+  width: auto;
+}
+.suscribeBoton {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 270px
+}
+.inputandboton {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+.inputandboton .boton {
+  width: 30%;
+}
+.suscribeBoton input {
+  width: 70%;
+  border-radius: 50px;
+  border: none;
+  padding: 10px;
+}
+.suscribeBoton span {
+  color: #8c8c94;
+  font-size: 12.5px;
+  text-align: right;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.copyMobile {
+  display: none;
+}
